@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DummyController {
     @GetMapping("/run")
     public String demoapi(){
-        return "hello world";
+        return "Hi Umrah meter wali";
     }
 }
